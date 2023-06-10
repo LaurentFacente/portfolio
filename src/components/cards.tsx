@@ -1,6 +1,5 @@
-import React from 'react';
 
-function Projet() {
+const Cards = () => {
   return (
     <div className='project-container'>
       <h2 className='project-title'>My <div className='violet-project'>projects</div></h2>
@@ -34,4 +33,4 @@ function Projet() {
   );
 }
 
-export default Projet;
+export default Cards;

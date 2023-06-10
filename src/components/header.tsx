@@ -1,7 +1,6 @@
-  import React from 'react';
   import '../assets/Header.css'
 
-  function Header() {
+  const Header = () => {
     return (
       <header className='header'>
         <div className='block_logo'>
